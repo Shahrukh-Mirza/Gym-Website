@@ -1,0 +1,64 @@
+/* '*{}' this is know as universal selector*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    
+}
+
+.container {
+    background-color: rgb(245, 211, 211);
+    padding: 15px 20px 15px 20px;
+    border: 1px solid rgb(21, 20, 19);
+    border-radius: 3px;
+}
+
+.container h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+input[type = "text"],
+input[typw = "number"],
+input[type = "email"],
+input[type = "paswword"],
+input[type = "date"],
+select,
+textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(97, 95, 95);
+    border-radius:3px ;
+    margin: 10px;
+
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid rgb(21, 20, 19);
+}
+
+.main_haeding{
+    text-align: center;
+}
+
+input[type = "submit"]
+{
+    background-color: rgb(31, 194, 140);
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type = "submit"]:hover{
+    background-color: #3272c7c8;
+}
+
