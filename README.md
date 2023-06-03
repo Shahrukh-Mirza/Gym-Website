@@ -1,2 +1,2 @@
-# Gym-Website Landing page
-Landing page of a Gym Website
+# Payment Form
+This is a Payment Form, receive all the essential information of a user!
